@@ -140,7 +140,7 @@ RSpec.describe 'Nested hash exercises' do
         }
       end
 
-      xit 'returns a hash with only ruby' do
+      it 'returns a hash with only ruby' do
         expected_output = {
           ruby: { is_beautiful?: true, initial_release: 'December 25, 1996' }
         }
